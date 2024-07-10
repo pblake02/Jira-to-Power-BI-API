@@ -1,0 +1,1269 @@
+{
+    "expand": "schema,names",
+    "startAt": 0,
+    "maxResults": 50,
+    "total": 6,
+    "issues": [
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+            "id": "10005",
+            "self": "https://pblake02.atlassian.net/rest/api/3/issue/10005",
+            "key": "SCRUM-6",
+            "fields": {
+                "statuscategorychangedate": "2024-07-09T21:11:26.789-0400",
+                "issuetype": {
+                    "self": "https://pblake02.atlassian.net/rest/api/3/issuetype/10005",
+                    "id": "10005",
+                    "description": "Subtasks track small pieces of work that are part of a larger task.",
+                    "iconUrl": "https://pblake02.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+                    "name": "Subtask",
+                    "subtask": true,
+                    "avatarId": 10316,
+                    "entityId": "881af08f-b695-46ae-a519-42327f1fa477",
+                    "hierarchyLevel": -1
+                },
+                "parent": {
+                    "id": "10001",
+                    "key": "SCRUM-2",
+                    "self": "https://pblake02.atlassian.net/rest/api/3/issue/10001",
+                    "fields": {
+                        "summary": "My First Story",
+                        "status": {
+                            "self": "https://pblake02.atlassian.net/rest/api/3/status/10000",
+                            "description": "",
+                            "iconUrl": "https://pblake02.atlassian.net/",
+                            "name": "To Do",
+                            "id": "10000",
+                            "statusCategory": {
+                                "self": "https://pblake02.atlassian.net/rest/api/3/statuscategory/2",
+                                "id": 2,
+                                "key": "new",
+                                "colorName": "blue-gray",
+                                "name": "To Do"
+                            }
+                        },
+                        "priority": {
+                            "self": "https://pblake02.atlassian.net/rest/api/3/priority/3",
+                            "iconUrl": "https://pblake02.atlassian.net/images/icons/priorities/medium.svg",
+                            "name": "Medium",
+                            "id": "3"
+                        },
+                        "issuetype": {
+                            "self": "https://pblake02.atlassian.net/rest/api/3/issuetype/10003",
+                            "id": "10003",
+                            "description": "Stories track functionality or features expressed as user goals.",
+                            "iconUrl": "https://pblake02.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10315?size=medium",
+                            "name": "Story",
+                            "subtask": false,
+                            "avatarId": 10315,
+                            "entityId": "554fa7f5-8477-4dc4-8455-61a42e471900",
+                            "hierarchyLevel": 0
+                        }
+                    }
+                },
+                "timespent": null,
+                "customfield_10031": null,
+                "project": {
+                    "self": "https://pblake02.atlassian.net/rest/api/3/project/10000",
+                    "id": "10000",
+                    "key": "SCRUM",
+                    "name": "My Scrum Project",
+                    "projectTypeKey": "software",
+                    "simplified": true,
+                    "avatarUrls": {
+                        "48x48": "https://pblake02.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10404",
+                        "24x24": "https://pblake02.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10404?size=small",
+                        "16x16": "https://pblake02.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10404?size=xsmall",
+                        "32x32": "https://pblake02.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10404?size=medium"
+                    }
+                },
+                "fixVersions": [],
+                "aggregatetimespent": null,
+                "resolution": null,
+                "customfield_10027": null,
+                "customfield_10028": null,
+                "customfield_10029": null,
+                "resolutiondate": null,
+                "workratio": -1,
+                "lastViewed": "2024-07-09T22:02:22.680-0400",
+                "watches": {
+                    "self": "https://pblake02.atlassian.net/rest/api/3/issue/SCRUM-6/watchers",
+                    "watchCount": 1,
+                    "isWatching": true
+                },
+                "created": "2024-07-09T21:11:26.396-0400",
+                "customfield_10020": [
+                    {
+                        "id": 1,
+                        "name": "SCRUM Sprint 1",
+                        "state": "future",
+                        "boardId": 1
+                    }
+                ],
+                "customfield_10021": null,
+                "customfield_10022": null,
+                "priority": {
+                    "self": "https://pblake02.atlassian.net/rest/api/3/priority/3",
+                    "iconUrl": "https://pblake02.atlassian.net/images/icons/priorities/medium.svg",
+                    "name": "Medium",
+                    "id": "3"
+                },
+                "customfield_10023": null,
+                "customfield_10024": null,
+                "customfield_10025": null,
+                "labels": [],
+                "customfield_10026": null,
+                "customfield_10016": null,
+                "customfield_10017": null,
+                "customfield_10018": {
+                    "hasEpicLinkFieldDependency": false,
+                    "showField": false,
+                    "nonEditableReason": {
+                        "reason": "PLUGIN_LICENSE_ERROR",
+                        "message": "The Parent Link is only available to Jira Premium users."
+                    }
+                },
+                "customfield_10019": "0|i00013:",
+                "timeestimate": null,
+                "aggregatetimeoriginalestimate": null,
+                "versions": [],
+                "issuelinks": [],
+                "assignee": null,
+                "updated": "2024-07-09T21:47:15.743-0400",
+                "status": {
+                    "self": "https://pblake02.atlassian.net/rest/api/3/status/10000",
+                    "description": "",
+                    "iconUrl": "https://pblake02.atlassian.net/",
+                    "name": "To Do",
+                    "id": "10000",
+                    "statusCategory": {
+                        "self": "https://pblake02.atlassian.net/rest/api/3/statuscategory/2",
+                        "id": 2,
+                        "key": "new",
+                        "colorName": "blue-gray",
+                        "name": "To Do"
+                    }
+                },
+                "components": [],
+                "timeoriginalestimate": null,
+                "description": null,
+                "customfield_10010": null,
+                "customfield_10014": null,
+                "customfield_10015": null,
+                "customfield_10005": null,
+                "customfield_10006": null,
+                "security": null,
+                "customfield_10007": {
+                    "self": "https://pblake02.atlassian.net/rest/api/3/customFieldOption/10014",
+                    "value": "New functionality",
+                    "id": "10014"
+                },
+                "customfield_10008": null,
+                "customfield_10009": null,
+                "aggregatetimeestimate": null,
+                "summary": "My First Child Issue",
+                "creator": {
+                    "self": "https://pblake02.atlassian.net/rest/api/3/user?accountId=712020%3Ade9d51db-26da-4737-8d84-d2e4fd94a1bc",
+                    "accountId": "712020:de9d51db-26da-4737-8d84-d2e4fd94a1bc",
+                    "emailAddress": "pblake02@gmail.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png",
+                        "24x24": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png",
+                        "16x16": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png",
+                        "32x32": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png"
+                    },
+                    "displayName": "Patrick Blake",
+                    "active": true,
+                    "timeZone": "America/New_York",
+                    "accountType": "atlassian"
+                },
+                "subtasks": [],
+                "reporter": {
+                    "self": "https://pblake02.atlassian.net/rest/api/3/user?accountId=712020%3Ade9d51db-26da-4737-8d84-d2e4fd94a1bc",
+                    "accountId": "712020:de9d51db-26da-4737-8d84-d2e4fd94a1bc",
+                    "emailAddress": "pblake02@gmail.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png",
+                        "24x24": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png",
+                        "16x16": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png",
+                        "32x32": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png"
+                    },
+                    "displayName": "Patrick Blake",
+                    "active": true,
+                    "timeZone": "America/New_York",
+                    "accountType": "atlassian"
+                },
+                "aggregateprogress": {
+                    "progress": 0,
+                    "total": 0
+                },
+                "customfield_10001": null,
+                "customfield_10002": [],
+                "customfield_10003": [
+                    {
+                        "self": "https://pblake02.atlassian.net/rest/api/3/user?accountId=712020%3Ade9d51db-26da-4737-8d84-d2e4fd94a1bc",
+                        "accountId": "712020:de9d51db-26da-4737-8d84-d2e4fd94a1bc",
+                        "emailAddress": "pblake02@gmail.com",
+                        "avatarUrls": {
+                            "48x48": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png",
+                            "24x24": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png",
+                            "16x16": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png",
+                            "32x32": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png"
+                        },
+                        "displayName": "Patrick Blake",
+                        "active": true,
+                        "timeZone": "America/New_York",
+                        "accountType": "atlassian"
+                    }
+                ],
+                "customfield_10004": {
+                    "self": "https://pblake02.atlassian.net/rest/api/3/customFieldOption/10002",
+                    "value": "Moderate / Limited",
+                    "id": "10002"
+                },
+                "environment": null,
+                "duedate": "2024-07-30",
+                "progress": {
+                    "progress": 0,
+                    "total": 0
+                },
+                "votes": {
+                    "self": "https://pblake02.atlassian.net/rest/api/3/issue/SCRUM-6/votes",
+                    "votes": 0,
+                    "hasVoted": false
+                }
+            }
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+            "id": "10004",
+            "self": "https://pblake02.atlassian.net/rest/api/3/issue/10004",
+            "key": "SCRUM-5",
+            "fields": {
+                "statuscategorychangedate": "2024-07-09T21:07:29.503-0400",
+                "issuetype": {
+                    "self": "https://pblake02.atlassian.net/rest/api/3/issuetype/10002",
+                    "id": "10002",
+                    "description": "Bugs track problems or errors.",
+                    "iconUrl": "https://pblake02.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+                    "name": "Bug",
+                    "subtask": false,
+                    "avatarId": 10303,
+                    "entityId": "d950456f-38d1-4ce4-af56-b498fb85056a",
+                    "hierarchyLevel": 0
+                },
+                "parent": {
+                    "id": "10000",
+                    "key": "SCRUM-1",
+                    "self": "https://pblake02.atlassian.net/rest/api/3/issue/10000",
+                    "fields": {
+                        "summary": "Demo",
+                        "status": {
+                            "self": "https://pblake02.atlassian.net/rest/api/3/status/10000",
+                            "description": "",
+                            "iconUrl": "https://pblake02.atlassian.net/",
+                            "name": "To Do",
+                            "id": "10000",
+                            "statusCategory": {
+                                "self": "https://pblake02.atlassian.net/rest/api/3/statuscategory/2",
+                                "id": 2,
+                                "key": "new",
+                                "colorName": "blue-gray",
+                                "name": "To Do"
+                            }
+                        },
+                        "priority": {
+                            "self": "https://pblake02.atlassian.net/rest/api/3/priority/3",
+                            "iconUrl": "https://pblake02.atlassian.net/images/icons/priorities/medium.svg",
+                            "name": "Medium",
+                            "id": "3"
+                        },
+                        "issuetype": {
+                            "self": "https://pblake02.atlassian.net/rest/api/3/issuetype/10004",
+                            "id": "10004",
+                            "description": "Epics track collections of related bugs, stories, and tasks.",
+                            "iconUrl": "https://pblake02.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+                            "name": "Epic",
+                            "subtask": false,
+                            "avatarId": 10307,
+                            "entityId": "747ac230-ecb6-4e8c-bd02-9ad04e8a6156",
+                            "hierarchyLevel": 1
+                        }
+                    }
+                },
+                "timespent": null,
+                "project": {
+                    "self": "https://pblake02.atlassian.net/rest/api/3/project/10000",
+                    "id": "10000",
+                    "key": "SCRUM",
+                    "name": "My Scrum Project",
+                    "projectTypeKey": "software",
+                    "simplified": true,
+                    "avatarUrls": {
+                        "48x48": "https://pblake02.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10404",
+                        "24x24": "https://pblake02.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10404?size=small",
+                        "16x16": "https://pblake02.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10404?size=xsmall",
+                        "32x32": "https://pblake02.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10404?size=medium"
+                    }
+                },
+                "customfield_10031": null,
+                "fixVersions": [],
+                "aggregatetimespent": null,
+                "resolution": null,
+                "customfield_10027": null,
+                "customfield_10028": null,
+                "customfield_10029": null,
+                "resolutiondate": null,
+                "workratio": -1,
+                "lastViewed": "2024-07-09T21:07:38.353-0400",
+                "watches": {
+                    "self": "https://pblake02.atlassian.net/rest/api/3/issue/SCRUM-5/watchers",
+                    "watchCount": 1,
+                    "isWatching": true
+                },
+                "created": "2024-07-09T21:07:29.221-0400",
+                "customfield_10020": [
+                    {
+                        "id": 1,
+                        "name": "SCRUM Sprint 1",
+                        "state": "future",
+                        "boardId": 1
+                    }
+                ],
+                "customfield_10021": null,
+                "customfield_10022": null,
+                "priority": {
+                    "self": "https://pblake02.atlassian.net/rest/api/3/priority/3",
+                    "iconUrl": "https://pblake02.atlassian.net/images/icons/priorities/medium.svg",
+                    "name": "Medium",
+                    "id": "3"
+                },
+                "customfield_10023": null,
+                "customfield_10024": null,
+                "customfield_10025": null,
+                "labels": [],
+                "customfield_10026": null,
+                "customfield_10016": null,
+                "customfield_10017": null,
+                "customfield_10018": {
+                    "hasEpicLinkFieldDependency": false,
+                    "showField": false,
+                    "nonEditableReason": {
+                        "reason": "PLUGIN_LICENSE_ERROR",
+                        "message": "The Parent Link is only available to Jira Premium users."
+                    }
+                },
+                "customfield_10019": "0|i0000v:",
+                "timeestimate": null,
+                "aggregatetimeoriginalestimate": null,
+                "versions": [],
+                "issuelinks": [],
+                "assignee": null,
+                "updated": "2024-07-09T21:11:06.561-0400",
+                "status": {
+                    "self": "https://pblake02.atlassian.net/rest/api/3/status/10000",
+                    "description": "",
+                    "iconUrl": "https://pblake02.atlassian.net/",
+                    "name": "To Do",
+                    "id": "10000",
+                    "statusCategory": {
+                        "self": "https://pblake02.atlassian.net/rest/api/3/statuscategory/2",
+                        "id": 2,
+                        "key": "new",
+                        "colorName": "blue-gray",
+                        "name": "To Do"
+                    }
+                },
+                "components": [],
+                "timeoriginalestimate": null,
+                "description": null,
+                "customfield_10010": null,
+                "customfield_10014": null,
+                "customfield_10015": null,
+                "customfield_10005": null,
+                "customfield_10006": null,
+                "customfield_10007": null,
+                "security": null,
+                "customfield_10008": null,
+                "customfield_10009": null,
+                "aggregatetimeestimate": null,
+                "summary": "My First Bug",
+                "creator": {
+                    "self": "https://pblake02.atlassian.net/rest/api/3/user?accountId=712020%3Ade9d51db-26da-4737-8d84-d2e4fd94a1bc",
+                    "accountId": "712020:de9d51db-26da-4737-8d84-d2e4fd94a1bc",
+                    "emailAddress": "pblake02@gmail.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png",
+                        "24x24": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png",
+                        "16x16": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png",
+                        "32x32": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png"
+                    },
+                    "displayName": "Patrick Blake",
+                    "active": true,
+                    "timeZone": "America/New_York",
+                    "accountType": "atlassian"
+                },
+                "subtasks": [],
+                "reporter": {
+                    "self": "https://pblake02.atlassian.net/rest/api/3/user?accountId=712020%3Ade9d51db-26da-4737-8d84-d2e4fd94a1bc",
+                    "accountId": "712020:de9d51db-26da-4737-8d84-d2e4fd94a1bc",
+                    "emailAddress": "pblake02@gmail.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png",
+                        "24x24": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png",
+                        "16x16": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png",
+                        "32x32": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png"
+                    },
+                    "displayName": "Patrick Blake",
+                    "active": true,
+                    "timeZone": "America/New_York",
+                    "accountType": "atlassian"
+                },
+                "aggregateprogress": {
+                    "progress": 0,
+                    "total": 0
+                },
+                "customfield_10001": null,
+                "customfield_10002": [],
+                "customfield_10003": null,
+                "customfield_10004": null,
+                "environment": null,
+                "duedate": null,
+                "progress": {
+                    "progress": 0,
+                    "total": 0
+                },
+                "votes": {
+                    "self": "https://pblake02.atlassian.net/rest/api/3/issue/SCRUM-5/votes",
+                    "votes": 0,
+                    "hasVoted": false
+                }
+            }
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+            "id": "10003",
+            "self": "https://pblake02.atlassian.net/rest/api/3/issue/10003",
+            "key": "SCRUM-4",
+            "fields": {
+                "statuscategorychangedate": "2024-07-09T21:07:22.299-0400",
+                "issuetype": {
+                    "self": "https://pblake02.atlassian.net/rest/api/3/issuetype/10003",
+                    "id": "10003",
+                    "description": "Stories track functionality or features expressed as user goals.",
+                    "iconUrl": "https://pblake02.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10315?size=medium",
+                    "name": "Story",
+                    "subtask": false,
+                    "avatarId": 10315,
+                    "entityId": "554fa7f5-8477-4dc4-8455-61a42e471900",
+                    "hierarchyLevel": 0
+                },
+                "parent": {
+                    "id": "10000",
+                    "key": "SCRUM-1",
+                    "self": "https://pblake02.atlassian.net/rest/api/3/issue/10000",
+                    "fields": {
+                        "summary": "Demo",
+                        "status": {
+                            "self": "https://pblake02.atlassian.net/rest/api/3/status/10000",
+                            "description": "",
+                            "iconUrl": "https://pblake02.atlassian.net/",
+                            "name": "To Do",
+                            "id": "10000",
+                            "statusCategory": {
+                                "self": "https://pblake02.atlassian.net/rest/api/3/statuscategory/2",
+                                "id": 2,
+                                "key": "new",
+                                "colorName": "blue-gray",
+                                "name": "To Do"
+                            }
+                        },
+                        "priority": {
+                            "self": "https://pblake02.atlassian.net/rest/api/3/priority/3",
+                            "iconUrl": "https://pblake02.atlassian.net/images/icons/priorities/medium.svg",
+                            "name": "Medium",
+                            "id": "3"
+                        },
+                        "issuetype": {
+                            "self": "https://pblake02.atlassian.net/rest/api/3/issuetype/10004",
+                            "id": "10004",
+                            "description": "Epics track collections of related bugs, stories, and tasks.",
+                            "iconUrl": "https://pblake02.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+                            "name": "Epic",
+                            "subtask": false,
+                            "avatarId": 10307,
+                            "entityId": "747ac230-ecb6-4e8c-bd02-9ad04e8a6156",
+                            "hierarchyLevel": 1
+                        }
+                    }
+                },
+                "timespent": null,
+                "customfield_10031": null,
+                "project": {
+                    "self": "https://pblake02.atlassian.net/rest/api/3/project/10000",
+                    "id": "10000",
+                    "key": "SCRUM",
+                    "name": "My Scrum Project",
+                    "projectTypeKey": "software",
+                    "simplified": true,
+                    "avatarUrls": {
+                        "48x48": "https://pblake02.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10404",
+                        "24x24": "https://pblake02.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10404?size=small",
+                        "16x16": "https://pblake02.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10404?size=xsmall",
+                        "32x32": "https://pblake02.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10404?size=medium"
+                    }
+                },
+                "fixVersions": [],
+                "aggregatetimespent": null,
+                "resolution": null,
+                "customfield_10027": null,
+                "customfield_10028": null,
+                "customfield_10029": null,
+                "resolutiondate": null,
+                "workratio": -1,
+                "watches": {
+                    "self": "https://pblake02.atlassian.net/rest/api/3/issue/SCRUM-4/watchers",
+                    "watchCount": 1,
+                    "isWatching": true
+                },
+                "lastViewed": "2024-07-09T21:26:38.844-0400",
+                "created": "2024-07-09T21:07:21.999-0400",
+                "customfield_10020": null,
+                "customfield_10021": null,
+                "customfield_10022": null,
+                "priority": {
+                    "self": "https://pblake02.atlassian.net/rest/api/3/priority/3",
+                    "iconUrl": "https://pblake02.atlassian.net/images/icons/priorities/medium.svg",
+                    "name": "Medium",
+                    "id": "3"
+                },
+                "customfield_10023": null,
+                "customfield_10024": null,
+                "customfield_10025": null,
+                "labels": [],
+                "customfield_10026": null,
+                "customfield_10016": null,
+                "customfield_10017": null,
+                "customfield_10018": {
+                    "hasEpicLinkFieldDependency": false,
+                    "showField": false,
+                    "nonEditableReason": {
+                        "reason": "PLUGIN_LICENSE_ERROR",
+                        "message": "The Parent Link is only available to Jira Premium users."
+                    }
+                },
+                "customfield_10019": "0|i0000n:",
+                "timeestimate": null,
+                "aggregatetimeoriginalestimate": null,
+                "versions": [],
+                "issuelinks": [],
+                "assignee": null,
+                "updated": "2024-07-09T21:09:10.487-0400",
+                "status": {
+                    "self": "https://pblake02.atlassian.net/rest/api/3/status/10000",
+                    "description": "",
+                    "iconUrl": "https://pblake02.atlassian.net/",
+                    "name": "To Do",
+                    "id": "10000",
+                    "statusCategory": {
+                        "self": "https://pblake02.atlassian.net/rest/api/3/statuscategory/2",
+                        "id": 2,
+                        "key": "new",
+                        "colorName": "blue-gray",
+                        "name": "To Do"
+                    }
+                },
+                "components": [],
+                "timeoriginalestimate": null,
+                "description": null,
+                "customfield_10010": null,
+                "customfield_10014": null,
+                "customfield_10015": null,
+                "customfield_10005": null,
+                "customfield_10006": null,
+                "customfield_10007": null,
+                "security": null,
+                "customfield_10008": null,
+                "customfield_10009": null,
+                "aggregatetimeestimate": null,
+                "summary": "My Second Story",
+                "creator": {
+                    "self": "https://pblake02.atlassian.net/rest/api/3/user?accountId=712020%3Ade9d51db-26da-4737-8d84-d2e4fd94a1bc",
+                    "accountId": "712020:de9d51db-26da-4737-8d84-d2e4fd94a1bc",
+                    "emailAddress": "pblake02@gmail.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png",
+                        "24x24": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png",
+                        "16x16": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png",
+                        "32x32": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png"
+                    },
+                    "displayName": "Patrick Blake",
+                    "active": true,
+                    "timeZone": "America/New_York",
+                    "accountType": "atlassian"
+                },
+                "subtasks": [],
+                "reporter": {
+                    "self": "https://pblake02.atlassian.net/rest/api/3/user?accountId=712020%3Ade9d51db-26da-4737-8d84-d2e4fd94a1bc",
+                    "accountId": "712020:de9d51db-26da-4737-8d84-d2e4fd94a1bc",
+                    "emailAddress": "pblake02@gmail.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png",
+                        "24x24": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png",
+                        "16x16": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png",
+                        "32x32": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png"
+                    },
+                    "displayName": "Patrick Blake",
+                    "active": true,
+                    "timeZone": "America/New_York",
+                    "accountType": "atlassian"
+                },
+                "aggregateprogress": {
+                    "progress": 0,
+                    "total": 0
+                },
+                "customfield_10001": null,
+                "customfield_10002": [],
+                "customfield_10003": null,
+                "customfield_10004": null,
+                "environment": null,
+                "duedate": null,
+                "progress": {
+                    "progress": 0,
+                    "total": 0
+                },
+                "votes": {
+                    "self": "https://pblake02.atlassian.net/rest/api/3/issue/SCRUM-4/votes",
+                    "votes": 0,
+                    "hasVoted": false
+                }
+            }
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+            "id": "10002",
+            "self": "https://pblake02.atlassian.net/rest/api/3/issue/10002",
+            "key": "SCRUM-3",
+            "fields": {
+                "statuscategorychangedate": "2024-07-09T21:07:12.759-0400",
+                "issuetype": {
+                    "self": "https://pblake02.atlassian.net/rest/api/3/issuetype/10001",
+                    "id": "10001",
+                    "description": "Tasks track small, distinct pieces of work.",
+                    "iconUrl": "https://pblake02.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
+                    "name": "Task",
+                    "subtask": false,
+                    "avatarId": 10318,
+                    "entityId": "2b70f6c4-18ad-44e5-9a54-eaf6c76cc69e",
+                    "hierarchyLevel": 0
+                },
+                "parent": {
+                    "id": "10000",
+                    "key": "SCRUM-1",
+                    "self": "https://pblake02.atlassian.net/rest/api/3/issue/10000",
+                    "fields": {
+                        "summary": "Demo",
+                        "status": {
+                            "self": "https://pblake02.atlassian.net/rest/api/3/status/10000",
+                            "description": "",
+                            "iconUrl": "https://pblake02.atlassian.net/",
+                            "name": "To Do",
+                            "id": "10000",
+                            "statusCategory": {
+                                "self": "https://pblake02.atlassian.net/rest/api/3/statuscategory/2",
+                                "id": 2,
+                                "key": "new",
+                                "colorName": "blue-gray",
+                                "name": "To Do"
+                            }
+                        },
+                        "priority": {
+                            "self": "https://pblake02.atlassian.net/rest/api/3/priority/3",
+                            "iconUrl": "https://pblake02.atlassian.net/images/icons/priorities/medium.svg",
+                            "name": "Medium",
+                            "id": "3"
+                        },
+                        "issuetype": {
+                            "self": "https://pblake02.atlassian.net/rest/api/3/issuetype/10004",
+                            "id": "10004",
+                            "description": "Epics track collections of related bugs, stories, and tasks.",
+                            "iconUrl": "https://pblake02.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+                            "name": "Epic",
+                            "subtask": false,
+                            "avatarId": 10307,
+                            "entityId": "747ac230-ecb6-4e8c-bd02-9ad04e8a6156",
+                            "hierarchyLevel": 1
+                        }
+                    }
+                },
+                "timespent": null,
+                "project": {
+                    "self": "https://pblake02.atlassian.net/rest/api/3/project/10000",
+                    "id": "10000",
+                    "key": "SCRUM",
+                    "name": "My Scrum Project",
+                    "projectTypeKey": "software",
+                    "simplified": true,
+                    "avatarUrls": {
+                        "48x48": "https://pblake02.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10404",
+                        "24x24": "https://pblake02.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10404?size=small",
+                        "16x16": "https://pblake02.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10404?size=xsmall",
+                        "32x32": "https://pblake02.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10404?size=medium"
+                    }
+                },
+                "customfield_10031": null,
+                "fixVersions": [],
+                "aggregatetimespent": null,
+                "resolution": null,
+                "customfield_10027": null,
+                "customfield_10028": null,
+                "customfield_10029": null,
+                "resolutiondate": null,
+                "workratio": -1,
+                "watches": {
+                    "self": "https://pblake02.atlassian.net/rest/api/3/issue/SCRUM-3/watchers",
+                    "watchCount": 1,
+                    "isWatching": true
+                },
+                "lastViewed": "2024-07-09T21:08:55.393-0400",
+                "created": "2024-07-09T21:07:12.542-0400",
+                "customfield_10020": [
+                    {
+                        "id": 1,
+                        "name": "SCRUM Sprint 1",
+                        "state": "future",
+                        "boardId": 1
+                    }
+                ],
+                "customfield_10021": null,
+                "customfield_10022": null,
+                "priority": {
+                    "self": "https://pblake02.atlassian.net/rest/api/3/priority/3",
+                    "iconUrl": "https://pblake02.atlassian.net/images/icons/priorities/medium.svg",
+                    "name": "Medium",
+                    "id": "3"
+                },
+                "customfield_10023": null,
+                "customfield_10024": null,
+                "customfield_10025": null,
+                "labels": [],
+                "customfield_10026": null,
+                "customfield_10016": null,
+                "customfield_10017": null,
+                "customfield_10018": {
+                    "hasEpicLinkFieldDependency": false,
+                    "showField": false,
+                    "nonEditableReason": {
+                        "reason": "PLUGIN_LICENSE_ERROR",
+                        "message": "The Parent Link is only available to Jira Premium users."
+                    }
+                },
+                "customfield_10019": "0|i0000f:",
+                "aggregatetimeoriginalestimate": null,
+                "timeestimate": null,
+                "versions": [],
+                "issuelinks": [],
+                "assignee": null,
+                "updated": "2024-07-09T21:11:06.561-0400",
+                "status": {
+                    "self": "https://pblake02.atlassian.net/rest/api/3/status/10000",
+                    "description": "",
+                    "iconUrl": "https://pblake02.atlassian.net/",
+                    "name": "To Do",
+                    "id": "10000",
+                    "statusCategory": {
+                        "self": "https://pblake02.atlassian.net/rest/api/3/statuscategory/2",
+                        "id": 2,
+                        "key": "new",
+                        "colorName": "blue-gray",
+                        "name": "To Do"
+                    }
+                },
+                "components": [],
+                "timeoriginalestimate": null,
+                "description": null,
+                "customfield_10010": null,
+                "customfield_10014": null,
+                "customfield_10015": null,
+                "customfield_10005": null,
+                "customfield_10006": null,
+                "security": null,
+                "customfield_10007": null,
+                "customfield_10008": null,
+                "customfield_10009": null,
+                "aggregatetimeestimate": null,
+                "summary": "My First Task",
+                "creator": {
+                    "self": "https://pblake02.atlassian.net/rest/api/3/user?accountId=712020%3Ade9d51db-26da-4737-8d84-d2e4fd94a1bc",
+                    "accountId": "712020:de9d51db-26da-4737-8d84-d2e4fd94a1bc",
+                    "emailAddress": "pblake02@gmail.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png",
+                        "24x24": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png",
+                        "16x16": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png",
+                        "32x32": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png"
+                    },
+                    "displayName": "Patrick Blake",
+                    "active": true,
+                    "timeZone": "America/New_York",
+                    "accountType": "atlassian"
+                },
+                "subtasks": [],
+                "reporter": {
+                    "self": "https://pblake02.atlassian.net/rest/api/3/user?accountId=712020%3Ade9d51db-26da-4737-8d84-d2e4fd94a1bc",
+                    "accountId": "712020:de9d51db-26da-4737-8d84-d2e4fd94a1bc",
+                    "emailAddress": "pblake02@gmail.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png",
+                        "24x24": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png",
+                        "16x16": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png",
+                        "32x32": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png"
+                    },
+                    "displayName": "Patrick Blake",
+                    "active": true,
+                    "timeZone": "America/New_York",
+                    "accountType": "atlassian"
+                },
+                "aggregateprogress": {
+                    "progress": 0,
+                    "total": 0
+                },
+                "customfield_10001": null,
+                "customfield_10002": [],
+                "customfield_10003": null,
+                "customfield_10004": null,
+                "environment": null,
+                "duedate": null,
+                "progress": {
+                    "progress": 0,
+                    "total": 0
+                },
+                "votes": {
+                    "self": "https://pblake02.atlassian.net/rest/api/3/issue/SCRUM-3/votes",
+                    "votes": 0,
+                    "hasVoted": false
+                }
+            }
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+            "id": "10001",
+            "self": "https://pblake02.atlassian.net/rest/api/3/issue/10001",
+            "key": "SCRUM-2",
+            "fields": {
+                "statuscategorychangedate": "2024-07-09T21:06:53.777-0400",
+                "issuetype": {
+                    "self": "https://pblake02.atlassian.net/rest/api/3/issuetype/10003",
+                    "id": "10003",
+                    "description": "Stories track functionality or features expressed as user goals.",
+                    "iconUrl": "https://pblake02.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10315?size=medium",
+                    "name": "Story",
+                    "subtask": false,
+                    "avatarId": 10315,
+                    "entityId": "554fa7f5-8477-4dc4-8455-61a42e471900",
+                    "hierarchyLevel": 0
+                },
+                "parent": {
+                    "id": "10000",
+                    "key": "SCRUM-1",
+                    "self": "https://pblake02.atlassian.net/rest/api/3/issue/10000",
+                    "fields": {
+                        "summary": "Demo",
+                        "status": {
+                            "self": "https://pblake02.atlassian.net/rest/api/3/status/10000",
+                            "description": "",
+                            "iconUrl": "https://pblake02.atlassian.net/",
+                            "name": "To Do",
+                            "id": "10000",
+                            "statusCategory": {
+                                "self": "https://pblake02.atlassian.net/rest/api/3/statuscategory/2",
+                                "id": 2,
+                                "key": "new",
+                                "colorName": "blue-gray",
+                                "name": "To Do"
+                            }
+                        },
+                        "priority": {
+                            "self": "https://pblake02.atlassian.net/rest/api/3/priority/3",
+                            "iconUrl": "https://pblake02.atlassian.net/images/icons/priorities/medium.svg",
+                            "name": "Medium",
+                            "id": "3"
+                        },
+                        "issuetype": {
+                            "self": "https://pblake02.atlassian.net/rest/api/3/issuetype/10004",
+                            "id": "10004",
+                            "description": "Epics track collections of related bugs, stories, and tasks.",
+                            "iconUrl": "https://pblake02.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+                            "name": "Epic",
+                            "subtask": false,
+                            "avatarId": 10307,
+                            "entityId": "747ac230-ecb6-4e8c-bd02-9ad04e8a6156",
+                            "hierarchyLevel": 1
+                        }
+                    }
+                },
+                "timespent": null,
+                "customfield_10031": null,
+                "project": {
+                    "self": "https://pblake02.atlassian.net/rest/api/3/project/10000",
+                    "id": "10000",
+                    "key": "SCRUM",
+                    "name": "My Scrum Project",
+                    "projectTypeKey": "software",
+                    "simplified": true,
+                    "avatarUrls": {
+                        "48x48": "https://pblake02.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10404",
+                        "24x24": "https://pblake02.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10404?size=small",
+                        "16x16": "https://pblake02.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10404?size=xsmall",
+                        "32x32": "https://pblake02.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10404?size=medium"
+                    }
+                },
+                "fixVersions": [],
+                "aggregatetimespent": null,
+                "resolution": null,
+                "customfield_10027": null,
+                "customfield_10028": null,
+                "customfield_10029": null,
+                "resolutiondate": null,
+                "workratio": -1,
+                "lastViewed": "2024-07-09T21:45:48.907-0400",
+                "watches": {
+                    "self": "https://pblake02.atlassian.net/rest/api/3/issue/SCRUM-2/watchers",
+                    "watchCount": 1,
+                    "isWatching": true
+                },
+                "created": "2024-07-09T21:06:53.477-0400",
+                "customfield_10020": [
+                    {
+                        "id": 1,
+                        "name": "SCRUM Sprint 1",
+                        "state": "future",
+                        "boardId": 1
+                    }
+                ],
+                "customfield_10021": null,
+                "customfield_10022": null,
+                "priority": {
+                    "self": "https://pblake02.atlassian.net/rest/api/3/priority/3",
+                    "iconUrl": "https://pblake02.atlassian.net/images/icons/priorities/medium.svg",
+                    "name": "Medium",
+                    "id": "3"
+                },
+                "customfield_10023": null,
+                "customfield_10024": null,
+                "customfield_10025": null,
+                "labels": [],
+                "customfield_10026": null,
+                "customfield_10016": null,
+                "customfield_10017": null,
+                "customfield_10018": {
+                    "hasEpicLinkFieldDependency": false,
+                    "showField": false,
+                    "nonEditableReason": {
+                        "reason": "PLUGIN_LICENSE_ERROR",
+                        "message": "The Parent Link is only available to Jira Premium users."
+                    }
+                },
+                "customfield_10019": "0|i00007:",
+                "aggregatetimeoriginalestimate": null,
+                "timeestimate": null,
+                "versions": [],
+                "issuelinks": [],
+                "assignee": {
+                    "self": "https://pblake02.atlassian.net/rest/api/3/user?accountId=712020%3Ade9d51db-26da-4737-8d84-d2e4fd94a1bc",
+                    "accountId": "712020:de9d51db-26da-4737-8d84-d2e4fd94a1bc",
+                    "emailAddress": "pblake02@gmail.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png",
+                        "24x24": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png",
+                        "16x16": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png",
+                        "32x32": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png"
+                    },
+                    "displayName": "Patrick Blake",
+                    "active": true,
+                    "timeZone": "America/New_York",
+                    "accountType": "atlassian"
+                },
+                "updated": "2024-07-09T21:10:22.091-0400",
+                "status": {
+                    "self": "https://pblake02.atlassian.net/rest/api/3/status/10000",
+                    "description": "",
+                    "iconUrl": "https://pblake02.atlassian.net/",
+                    "name": "To Do",
+                    "id": "10000",
+                    "statusCategory": {
+                        "self": "https://pblake02.atlassian.net/rest/api/3/statuscategory/2",
+                        "id": 2,
+                        "key": "new",
+                        "colorName": "blue-gray",
+                        "name": "To Do"
+                    }
+                },
+                "components": [],
+                "timeoriginalestimate": null,
+                "description": null,
+                "customfield_10010": null,
+                "customfield_10014": null,
+                "customfield_10015": null,
+                "customfield_10005": null,
+                "customfield_10006": null,
+                "security": null,
+                "customfield_10007": null,
+                "customfield_10008": null,
+                "aggregatetimeestimate": null,
+                "customfield_10009": null,
+                "summary": "My First Story",
+                "creator": {
+                    "self": "https://pblake02.atlassian.net/rest/api/3/user?accountId=712020%3Ade9d51db-26da-4737-8d84-d2e4fd94a1bc",
+                    "accountId": "712020:de9d51db-26da-4737-8d84-d2e4fd94a1bc",
+                    "emailAddress": "pblake02@gmail.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png",
+                        "24x24": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png",
+                        "16x16": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png",
+                        "32x32": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png"
+                    },
+                    "displayName": "Patrick Blake",
+                    "active": true,
+                    "timeZone": "America/New_York",
+                    "accountType": "atlassian"
+                },
+                "subtasks": [
+                    {
+                        "id": "10005",
+                        "key": "SCRUM-6",
+                        "self": "https://pblake02.atlassian.net/rest/api/3/issue/10005",
+                        "fields": {
+                            "summary": "My First Child Issue",
+                            "status": {
+                                "self": "https://pblake02.atlassian.net/rest/api/3/status/10000",
+                                "description": "",
+                                "iconUrl": "https://pblake02.atlassian.net/",
+                                "name": "To Do",
+                                "id": "10000",
+                                "statusCategory": {
+                                    "self": "https://pblake02.atlassian.net/rest/api/3/statuscategory/2",
+                                    "id": 2,
+                                    "key": "new",
+                                    "colorName": "blue-gray",
+                                    "name": "To Do"
+                                }
+                            },
+                            "priority": {
+                                "self": "https://pblake02.atlassian.net/rest/api/3/priority/3",
+                                "iconUrl": "https://pblake02.atlassian.net/images/icons/priorities/medium.svg",
+                                "name": "Medium",
+                                "id": "3"
+                            },
+                            "issuetype": {
+                                "self": "https://pblake02.atlassian.net/rest/api/3/issuetype/10005",
+                                "id": "10005",
+                                "description": "Subtasks track small pieces of work that are part of a larger task.",
+                                "iconUrl": "https://pblake02.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+                                "name": "Subtask",
+                                "subtask": true,
+                                "avatarId": 10316,
+                                "entityId": "881af08f-b695-46ae-a519-42327f1fa477",
+                                "hierarchyLevel": -1
+                            }
+                        }
+                    }
+                ],
+                "reporter": {
+                    "self": "https://pblake02.atlassian.net/rest/api/3/user?accountId=712020%3Ade9d51db-26da-4737-8d84-d2e4fd94a1bc",
+                    "accountId": "712020:de9d51db-26da-4737-8d84-d2e4fd94a1bc",
+                    "emailAddress": "pblake02@gmail.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png",
+                        "24x24": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png",
+                        "16x16": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png",
+                        "32x32": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png"
+                    },
+                    "displayName": "Patrick Blake",
+                    "active": true,
+                    "timeZone": "America/New_York",
+                    "accountType": "atlassian"
+                },
+                "aggregateprogress": {
+                    "progress": 0,
+                    "total": 0
+                },
+                "customfield_10001": null,
+                "customfield_10002": [],
+                "customfield_10003": null,
+                "customfield_10004": null,
+                "environment": null,
+                "duedate": null,
+                "progress": {
+                    "progress": 0,
+                    "total": 0
+                },
+                "votes": {
+                    "self": "https://pblake02.atlassian.net/rest/api/3/issue/SCRUM-2/votes",
+                    "votes": 0,
+                    "hasVoted": false
+                }
+            }
+        },
+        {
+            "expand": "operations,versionedRepresentations,editmeta,changelog,customfield_10010.requestTypePractice,renderedFields",
+            "id": "10000",
+            "self": "https://pblake02.atlassian.net/rest/api/3/issue/10000",
+            "key": "SCRUM-1",
+            "fields": {
+                "statuscategorychangedate": "2024-07-09T21:06:33.464-0400",
+                "issuetype": {
+                    "self": "https://pblake02.atlassian.net/rest/api/3/issuetype/10004",
+                    "id": "10004",
+                    "description": "Epics track collections of related bugs, stories, and tasks.",
+                    "iconUrl": "https://pblake02.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
+                    "name": "Epic",
+                    "subtask": false,
+                    "avatarId": 10307,
+                    "entityId": "747ac230-ecb6-4e8c-bd02-9ad04e8a6156",
+                    "hierarchyLevel": 1
+                },
+                "timespent": null,
+                "customfield_10031": null,
+                "project": {
+                    "self": "https://pblake02.atlassian.net/rest/api/3/project/10000",
+                    "id": "10000",
+                    "key": "SCRUM",
+                    "name": "My Scrum Project",
+                    "projectTypeKey": "software",
+                    "simplified": true,
+                    "avatarUrls": {
+                        "48x48": "https://pblake02.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10404",
+                        "24x24": "https://pblake02.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10404?size=small",
+                        "16x16": "https://pblake02.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10404?size=xsmall",
+                        "32x32": "https://pblake02.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10404?size=medium"
+                    }
+                },
+                "fixVersions": [],
+                "aggregatetimespent": null,
+                "resolution": null,
+                "customfield_10027": null,
+                "customfield_10028": null,
+                "customfield_10029": null,
+                "resolutiondate": null,
+                "workratio": -1,
+                "watches": {
+                    "self": "https://pblake02.atlassian.net/rest/api/3/issue/SCRUM-1/watchers",
+                    "watchCount": 1,
+                    "isWatching": true
+                },
+                "lastViewed": "2024-07-09T21:19:08.272-0400",
+                "created": "2024-07-09T21:06:33.177-0400",
+                "customfield_10020": null,
+                "customfield_10021": null,
+                "customfield_10022": null,
+                "priority": {
+                    "self": "https://pblake02.atlassian.net/rest/api/3/priority/3",
+                    "iconUrl": "https://pblake02.atlassian.net/images/icons/priorities/medium.svg",
+                    "name": "Medium",
+                    "id": "3"
+                },
+                "customfield_10023": null,
+                "customfield_10024": null,
+                "customfield_10025": null,
+                "labels": [],
+                "customfield_10026": null,
+                "customfield_10016": null,
+                "customfield_10017": null,
+                "customfield_10018": {
+                    "hasEpicLinkFieldDependency": false,
+                    "showField": false,
+                    "nonEditableReason": {
+                        "reason": "PLUGIN_LICENSE_ERROR",
+                        "message": "The Parent Link is only available to Jira Premium users."
+                    }
+                },
+                "customfield_10019": "0|hzzzzz:",
+                "aggregatetimeoriginalestimate": null,
+                "timeestimate": null,
+                "versions": [],
+                "issuelinks": [],
+                "assignee": null,
+                "updated": "2024-07-09T21:06:33.222-0400",
+                "status": {
+                    "self": "https://pblake02.atlassian.net/rest/api/3/status/10000",
+                    "description": "",
+                    "iconUrl": "https://pblake02.atlassian.net/",
+                    "name": "To Do",
+                    "id": "10000",
+                    "statusCategory": {
+                        "self": "https://pblake02.atlassian.net/rest/api/3/statuscategory/2",
+                        "id": 2,
+                        "key": "new",
+                        "colorName": "blue-gray",
+                        "name": "To Do"
+                    }
+                },
+                "components": [],
+                "timeoriginalestimate": null,
+                "description": null,
+                "customfield_10010": null,
+                "customfield_10014": null,
+                "customfield_10015": null,
+                "customfield_10005": null,
+                "customfield_10006": null,
+                "customfield_10007": null,
+                "security": null,
+                "customfield_10008": null,
+                "customfield_10009": null,
+                "aggregatetimeestimate": null,
+                "summary": "Demo",
+                "creator": {
+                    "self": "https://pblake02.atlassian.net/rest/api/3/user?accountId=712020%3Ade9d51db-26da-4737-8d84-d2e4fd94a1bc",
+                    "accountId": "712020:de9d51db-26da-4737-8d84-d2e4fd94a1bc",
+                    "emailAddress": "pblake02@gmail.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png",
+                        "24x24": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png",
+                        "16x16": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png",
+                        "32x32": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png"
+                    },
+                    "displayName": "Patrick Blake",
+                    "active": true,
+                    "timeZone": "America/New_York",
+                    "accountType": "atlassian"
+                },
+                "subtasks": [],
+                "reporter": {
+                    "self": "https://pblake02.atlassian.net/rest/api/3/user?accountId=712020%3Ade9d51db-26da-4737-8d84-d2e4fd94a1bc",
+                    "accountId": "712020:de9d51db-26da-4737-8d84-d2e4fd94a1bc",
+                    "emailAddress": "pblake02@gmail.com",
+                    "avatarUrls": {
+                        "48x48": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png",
+                        "24x24": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png",
+                        "16x16": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png",
+                        "32x32": "https://secure.gravatar.com/avatar/55a7009a84c1f69340257722043151b6?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FPB-2.png"
+                    },
+                    "displayName": "Patrick Blake",
+                    "active": true,
+                    "timeZone": "America/New_York",
+                    "accountType": "atlassian"
+                },
+                "aggregateprogress": {
+                    "progress": 0,
+                    "total": 0
+                },
+                "customfield_10001": null,
+                "customfield_10002": [],
+                "customfield_10003": null,
+                "customfield_10004": null,
+                "environment": null,
+                "duedate": null,
+                "progress": {
+                    "progress": 0,
+                    "total": 0
+                },
+                "votes": {
+                    "self": "https://pblake02.atlassian.net/rest/api/3/issue/SCRUM-1/votes",
+                    "votes": 0,
+                    "hasVoted": false
+                }
+            }
+        }
+    ]
+}
