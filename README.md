@@ -1,5 +1,5 @@
 Goal:
-To recreate (from memory) a Power BI dashboard I previously made while at my last job.
+To recreate a Power BI dashboard I developed for my last analyst job.
 
 Purpose:
 To streamline Jira reporting rather than manually extracting JQL filters and uploading them to Excel and further formatting.
